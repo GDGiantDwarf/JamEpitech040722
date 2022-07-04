@@ -22,6 +22,7 @@ public class character : MonoBehaviour
     CapsuleCollider playercolider;
     public string currentanim;
     private Vector3 preced_pos;
+    public GameObject death_menu;
 
     void Start()
     {
@@ -64,7 +65,7 @@ public class character : MonoBehaviour
 
     void jump_handle(bool grounded)
     {
-        if ((Input.GetKeyDown(KeyCode.Space) && (grounded || is_fly))) {
+        if (((Input.GetKeyDown(KeyCode.Space) || Input.GetKeyDown(KeyCode.LeftControl)) && (grounded || is_fly))) {
             gameObject.GetComponent<Rigidbody>().velocity = jumpspeed;
             // animations.Play("jump-up");
         }
@@ -85,10 +86,13 @@ public class character : MonoBehaviour
     // Update is called once per frame
     void FixedUpdate()
     {
-        bool grounded = is_grounded(0.2f);
+        if (death_menu.activeSelf)
+            return;
+        bool grounded = is_grounded(0.5f);
+        // Debug.Log("grounded == "+ grounded+ " && button == " + Input.GetKeyDown(KeyCode.LeftControl));
         preced_pos = transform.position;
 
         depla_handle(grounded);
-        jump_handle(true);
+        jump_handle(grounded);
     }
 }

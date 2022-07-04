@@ -5,6 +5,7 @@ public class camera : MonoBehaviour
     private GameObject player;
     private GameObject bar;
     public GameObject camerafollow;
+    public GameObject death_menu;
     public float rotation_speed = 120.0f;
     public float sensitivity = 150.0f;
     [Range(0.1f, 1f)]
@@ -29,20 +30,22 @@ public class camera : MonoBehaviour
         Cursor.lockState = CursorLockMode.Locked;
         Cursor.visible = false;
         player = GameObject.Find("character");
+        death_menu = GameObject.Find("death");
+        death_menu.SetActive(false);
     }
 
     bool enable_cursor()
     {
         if (!followplayer)
             return (true);
-        if (Input.GetKey(KeyCode.LeftAlt) && !Cursor.visible) {
+        /* if (Input.GetKey(KeyCode.LeftAlt) && !Cursor.visible) {
             Cursor.lockState = CursorLockMode.None;
             Cursor.visible = true;
         }
         if (Input.GetKeyUp(KeyCode.LeftAlt) && Cursor.visible) {
             Cursor.lockState = CursorLockMode.Locked;
             Cursor.visible = false;
-        }
+        }*/
         if (Cursor.visible) {
             return (true);
         } else {
@@ -134,13 +137,16 @@ public class camera : MonoBehaviour
     }
 
     void LateUpdate() {
-        if (followplayer) {
+        if (followplayer && !death_menu.activeSelf) {
             CameraUpdater();
+        } else {
+            Cursor.lockState = CursorLockMode.None;
+            Cursor.visible = true;
         }
     }
 
     void FixedUpdate() {
-        if (!followplayer) {
+        if (!followplayer && !death_menu.activeSelf) {
             freeCamera();
         }
     }
