@@ -29,8 +29,6 @@ public class camera : MonoBehaviour
         Cursor.lockState = CursorLockMode.Locked;
         Cursor.visible = false;
         player = GameObject.Find("character");
-        bar = GameObject.Find("Canvas");
-        bar.SetActive(false);
     }
 
     bool enable_cursor()
