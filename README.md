@@ -1,2 +1,2 @@
-# JamEpitech040722
+# Legendary Octo Couscous
 Game Jam epitech
