@@ -14,10 +14,6 @@ public class first_acceuil_handling : MonoBehaviour
             sc_preced.name = "scene_preced";
             DontDestroyOnLoad(sc_preced);
         }
-        Parser = GameObject.Find("Parser").GetComponent<parser_opt>();
-        var arg = Parser.parsing("option/properties");
-        // create all button for acceuil
-        Button_acceuil.create_button("acceuil/aceuil_" + arg.language);
     }
 
     void Update()

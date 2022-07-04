@@ -12,21 +12,6 @@ public class first_menu : MonoBehaviour
     public GameObject panel_lang;
     private bool is_pressed = false;
 
-    void make_lang_panel()
-    {
-        GameObject panel = new GameObject();
-        panel.name = "langpanel";
-        panel.transform.position = new Vector3(1920 * (Screen.width / 3840f), 1080 * (Screen.height / 2160f), 0);
-        panel.transform.SetParent(transform);
-        panel.AddComponent<RectTransform>();
-        panel.AddComponent<Image>();
-        panel.GetComponent<RectTransform>().sizeDelta = new Vector2(3840 * (Screen.width / 1980f), 3160  * (Screen.height / 1080f));
-        panel.GetComponent<Image>().color = new Color(1f, 0f, 0f, 0.5f);
-        Button_acceuil.create_button("option/lang_" + parser.stru_gen.language);
-        panel.SetActive(false);
-        panel_lang = panel;
-    }
-
     void make_resolution()
     {
         GameObject list = GameObject.Find("Lang_Dropbox");
@@ -109,19 +94,15 @@ public class first_menu : MonoBehaviour
         init_size_screen = Screen.currentResolution;
         sc_pr = GameObject.Find("scene_preced").GetComponent<scene_preced>();
         init_dropdown_pos();
-        make_lang_panel();
         make_resolution();
     }
 
     void Update()
     {
         // if escape is pressed then change scene for start
-        if (Input.GetKeyDown(KeyCode.S)) {
-            parser.save_opt();
-        }
-        if (Input.GetKeyDown(KeyCode.Escape)) {
+       /* if (Input.GetKeyDown(KeyCode.Escape)) {
             SceneManager.LoadScene(sceneName:sc_pr.get_last());
-        }
+        }*/
         if (Input.GetKey(KeyCode.LeftControl) && Input.GetKey(KeyCode.LeftAlt) && Input.GetKey(KeyCode.W) && !is_pressed) {
             string[] args = init_size_screen.ToString().Trim(' ', 'H', 'z', 'h', 'Z').Replace('x', '@').Split('@');
             Screen.SetResolution(int.Parse(args[0]), int.Parse(args[1]), Screen.fullScreen, int.Parse(args[2]));

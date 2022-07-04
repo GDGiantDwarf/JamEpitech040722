@@ -10,10 +10,6 @@ public class first_game_handle : MonoBehaviour {
 
     private void make_pause_panel()
     {
-        parser_opt parseropt;
-        gameObject.AddComponent<parser_opt>();
-        parseropt = gameObject.GetComponent<parser_opt>();
-        parseropt.parsing("option/properties");
         GameObject panel = new GameObject();
         panel.name = "pause_panel";
         panel.layer = 5;
@@ -25,7 +21,6 @@ public class first_game_handle : MonoBehaviour {
         panel.AddComponent<Image>();
         panel.GetComponent<RectTransform>().sizeDelta = new Vector2(20 * (Screen.width / 1980f), 20  * (Screen.height / 1080f));
         panel.GetComponent<Image>().color = new Color(1f, 1f, 1f, 0.5f);
-        button_maker.create_button("game/pause_" + parseropt.stru_gen.language);
         panel.SetActive(false);
         pause_panel = panel;
     }

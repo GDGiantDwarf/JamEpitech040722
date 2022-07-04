@@ -28,14 +28,12 @@ public class sound_handler : MonoBehaviour
     }
     void Start()
     {
-        Parser_opt = GameObject.Find("Parser").GetComponent<parser_opt>();
         if (GameObject.Find("SoundHandle") != null) {
             GameObject Audio_panel = GameObject.Find("SoundHandle");
             Audio = Audio_panel.GetComponent<AudioSource>();
         } else {
-            var arg = Parser_opt.parsing("option/properties");
             make_sound_panel();
-            Load_properties_sound();
+            /*Load_properties_sound();*/
             DontDestroyOnLoad(GameObject.Find("SoundHandle"));
         }
         list_sound = new AudioClip[5];
@@ -60,8 +58,8 @@ public class sound_handler : MonoBehaviour
             Debug.LogError("sound not load");
             return;
         }
-        Parser_opt.stru_gen.mute = false;
-        Parser_opt.stru_gen.sound = value;
+       /* Parser_opt.stru_gen.mute = false;
+        Parser_opt.stru_gen.sound = value;*/
         Audio.volume = value / 100f;
     }
 
