@@ -6,24 +6,24 @@ using UnityEngine;
 
 public class state : MonoBehaviour
 {
-    public GameObject death_menu;
     public bool isActive;
-    public Toggle is_retry_auto;
+    public GameObject prefab;
+    public Vector3 char_pos;
+    public GameObject character;
 
     void Start()
     {
         isActive = false;
-        death_menu = GameObject.Find("death");
+        char_pos = character.transform.position;
     }
 
     void OnTriggerEnter(Collider other) {
         switch (other.gameObject.tag) {
             case "death":
                 isActive = true;
-                if (!is_retry_auto.isOn && isActive == true)
-                    death_menu.SetActive(true);
-                else
-                    SceneManager.LoadScene(sceneName:SceneManager.GetActiveScene().name);
+                GameObject new_cl = Instantiate(prefab, character.transform.position, Quaternion.identity);
+                
+                character.transform.position = char_pos;
                 break;
             case "Finish":
                 Debug.Log("win");

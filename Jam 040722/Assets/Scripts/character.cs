@@ -22,7 +22,6 @@ public class character : MonoBehaviour
     CapsuleCollider playercolider;
     public string currentanim;
     private Vector3 preced_pos;
-    public GameObject death_menu;
 
     void Start()
     {
@@ -86,8 +85,6 @@ public class character : MonoBehaviour
     // Update is called once per frame
     void FixedUpdate()
     {
-        if (death_menu.activeSelf)
-            return;
         // Debug.Log("grounded == "+ grounded+ " && button == " + Input.GetKeyDown(KeyCode.LeftControl));
         preced_pos = transform.position;
 
