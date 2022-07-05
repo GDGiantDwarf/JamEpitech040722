@@ -10,6 +10,8 @@ public class state : MonoBehaviour
     public GameObject prefab;
     public Vector3 char_pos;
     public GameObject character;
+    public short death;
+    public Text death_text;
 
     void Start()
     {
@@ -36,5 +38,9 @@ public class state : MonoBehaviour
             default:
                 break;
         }
+    }
+
+    void FixedUpdate() {
+       // death_text.text = death.ToString();
     }
 }

@@ -64,7 +64,7 @@ public class character : MonoBehaviour
 
     void jump_handle(bool grounded)
     {
-        if (((Input.GetKeyDown(KeyCode.Space) || Input.GetKeyDown(KeyCode.LeftControl)) && (grounded || is_fly))) {
+        if (((Input.GetKeyDown(KeyCode.Space) || Input.GetKeyDown(KeyCode.RightControl)) && (grounded || is_fly))) {
             gameObject.GetComponent<Rigidbody>().velocity = jumpspeed;
             // animations.Play("jump-up");
         }
