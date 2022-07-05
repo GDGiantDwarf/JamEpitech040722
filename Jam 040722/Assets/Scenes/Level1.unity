@@ -3388,7 +3388,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5720680063933172697, guid: 35b007b98cc8c3443bb7530b89fb15a4, type: 3}
       propertyPath: m_Name
-      value: octopus_animated_yellow
+      value: character
       objectReference: {fileID: 0}
     - target: {fileID: 5720680063933172700, guid: 35b007b98cc8c3443bb7530b89fb15a4, type: 3}
       propertyPath: death_menu
@@ -3562,6 +3562,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2937642800907667013}
   - component: {fileID: 2937642800907667019}
+  - component: {fileID: 2937642800907667020}
   m_Layer: 0
   m_Name: menus
   m_TagString: menus
@@ -3581,3 +3582,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bae72828914d1b92dbd1c6133ce9031e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &2937642800907667020
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2937642800907667018}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 28d7b3d2d2c38bb4f82d4787679e21f5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Grid: {fileID: 1883373642}
