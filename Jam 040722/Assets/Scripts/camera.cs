@@ -2,6 +2,7 @@ using UnityEngine;
 
 public class camera : MonoBehaviour
 {
+    public GameObject paused_menu;
     private GameObject player;
     private GameObject bar;
     public GameObject camerafollow;
@@ -20,6 +21,7 @@ public class camera : MonoBehaviour
     private Vector3 init;
     public string[] inputs = {"z", "q", "s", "d"};
     public bool followplayer = true;
+    public bool is_paused = false;
 
     void Start()
     {
@@ -35,19 +37,12 @@ public class camera : MonoBehaviour
     {
         if (!followplayer)
             return (true);
-        /* if (Input.GetKey(KeyCode.LeftAlt) && !Cursor.visible) {
-            Cursor.lockState = CursorLockMode.None;
-            Cursor.visible = true;
-        }
-        if (Input.GetKeyUp(KeyCode.LeftAlt) && Cursor.visible) {
-            Cursor.lockState = CursorLockMode.Locked;
-            Cursor.visible = false;
-        }*/
         if (Cursor.visible) {
-            return (true);
+            Cursor.lockState = CursorLockMode.None;
         } else {
-            return (false);
+            Cursor.lockState = CursorLockMode.Locked;
         }
+        return (Cursor.visible);
     }
 
     void Rotate_handle()
@@ -80,6 +75,11 @@ public class camera : MonoBehaviour
 
     void Update()
     {
+        if (Input.GetKeyUp(KeyCode.Escape)) {
+            Cursor.visible = !is_paused;
+            is_paused = !is_paused;
+        }
+        paused_menu.SetActive(is_paused);
         if (!enable_cursor()) {
             Rotate_handle();
             if (Input.GetAxis("Mouse ScrollWheel") != 0) {

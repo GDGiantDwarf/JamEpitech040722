@@ -1395,7 +1395,11 @@ MonoBehaviour:
   - q
   - s
   - d
+<<<<<<< HEAD
   jumpspeed: {x: 0, y: 6, z: 0}
+=======
+  jumpspeed: {x: 0, y: 8, z: 0}
+>>>>>>> 515c846485cc5a21fb55690ea4852bc4395faca0
   currentanim: 
 --- !u!65 &3910357097717517497
 BoxCollider:
