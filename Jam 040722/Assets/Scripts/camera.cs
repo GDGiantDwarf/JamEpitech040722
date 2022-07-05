@@ -86,23 +86,6 @@ public class camera : MonoBehaviour
                 Zoom_handle();
             }
         }
-        if (Input.GetKeyUp(KeyCode.E) && followplayer) {
-            init = transform.position;
-            player.GetComponent<character>().enabled = false;
-            bar.SetActive(true);
-            followplayer = false;
-            Cursor.lockState = CursorLockMode.None;
-            Cursor.visible = true;
-            GameObject.Find("Camera").GetComponent<BoxCollider>().enabled = true;
-        } else if (Input.GetKeyUp(KeyCode.E) && !followplayer) {
-            transform.position = init;
-            player.GetComponent<character>().enabled = true;
-            bar.SetActive(false);
-            followplayer = true;
-            Cursor.lockState = CursorLockMode.Locked;
-            Cursor.visible = false;
-            GameObject.Find("Camera").GetComponent<BoxCollider>().enabled = false;
-        }
     }
 
     void CameraUpdater()
