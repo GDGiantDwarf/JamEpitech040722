@@ -12,6 +12,7 @@ public class state : MonoBehaviour
     public GameObject character;
     public short death;
     public Text death_text;
+    public NextScene scene;
 
     void Start()
     {
@@ -33,6 +34,7 @@ public class state : MonoBehaviour
                 character.transform.position = char_pos;
                 break;
             case "Finish":
+                scene.changeScene();
                 Debug.Log("win");
                 break;
             default:
