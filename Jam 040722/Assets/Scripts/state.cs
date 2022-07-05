@@ -13,6 +13,7 @@ public class state : MonoBehaviour
     void Start()
     {
         isActive = false;
+        death_menu = GameObject.Find("death");
     }
 
     void OnTriggerEnter(Collider other) {

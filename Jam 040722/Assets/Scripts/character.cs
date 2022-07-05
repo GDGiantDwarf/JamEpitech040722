@@ -88,11 +88,13 @@ public class character : MonoBehaviour
     {
         if (death_menu.activeSelf)
             return;
-        bool grounded = is_grounded(0.5f);
         // Debug.Log("grounded == "+ grounded+ " && button == " + Input.GetKeyDown(KeyCode.LeftControl));
         preced_pos = transform.position;
 
-        depla_handle(grounded);
-        jump_handle(grounded);
+        depla_handle(is_grounded(0.5f));
+    }
+
+    void Update() {
+        jump_handle(is_grounded(0.5f));
     }
 }
