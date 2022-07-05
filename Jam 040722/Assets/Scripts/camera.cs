@@ -30,7 +30,6 @@ public class camera : MonoBehaviour
         Cursor.lockState = CursorLockMode.Locked;
         Cursor.visible = false;
         player = GameObject.Find("character");
-        death_menu = GameObject.Find("death");
         death_menu.SetActive(false);
     }
 
