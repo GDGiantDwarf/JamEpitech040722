@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 using UnityEngine;
+using TMPro;
 
 public class state : MonoBehaviour
 {
@@ -10,8 +11,8 @@ public class state : MonoBehaviour
     public GameObject prefab;
     public Vector3 char_pos;
     public GameObject character;
-    public short death;
-    public Text death_text;
+    public int death;
+    public TextMeshProUGUI death_text;
     public NextScene scene;
 
     void Start()
@@ -24,6 +25,7 @@ public class state : MonoBehaviour
         switch (other.gameObject.tag) {
             case "death":
                 isActive = true;
+                death += 1;
                 if (prefab == null) {
                     prefab = Resources.Load("prefab/dead_body") as GameObject;
                 }
@@ -43,6 +45,6 @@ public class state : MonoBehaviour
     }
 
     void FixedUpdate() {
-       // death_text.text = death.ToString();
+        death_text.text = death.ToString();
     }
 }

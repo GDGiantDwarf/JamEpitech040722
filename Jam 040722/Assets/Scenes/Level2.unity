@@ -7015,6 +7015,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 3910357097717517502, guid: 35b007b98cc8c3443bb7530b89fb15a4, type: 3}
+      propertyPath: death
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3910357097717517502, guid: 35b007b98cc8c3443bb7530b89fb15a4, type: 3}
       propertyPath: scene
       value: 
       objectReference: {fileID: 1714621071}
@@ -7030,6 +7034,10 @@ PrefabInstance:
       propertyPath: death_menu
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 3910357097717517502, guid: 35b007b98cc8c3443bb7530b89fb15a4, type: 3}
+      propertyPath: death_text
+      value: 
+      objectReference: {fileID: 443409911}
     - target: {fileID: 3910357097717517502, guid: 35b007b98cc8c3443bb7530b89fb15a4, type: 3}
       propertyPath: is_retry_auto
       value: 
