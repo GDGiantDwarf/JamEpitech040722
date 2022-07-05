@@ -1,11 +1,21 @@
 fileFormatVersion: 2
-guid: 2a03c739f0baf5d4d894ab6da9683bb1
+guid: 6e92949777dc98e4ea0152add0a33705
 ModelImporter:
   serializedVersion: 21300
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material
+    second: {fileID: 2100000, guid: 9c05e6087d6dc0940a6c25fc761d480d, type: 2}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: couscous
+    second: {fileID: 2800000, guid: b192d8b491a93dd42a033d1f1ae4e94b, type: 3}
   materials:
-    materialImportMode: 2
+    materialImportMode: 1
     materialName: 0
     materialSearch: 1
     materialLocation: 1

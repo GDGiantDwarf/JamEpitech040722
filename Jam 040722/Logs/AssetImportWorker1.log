@@ -2611,3 +2611,1374 @@ AssetImportParameters requested are different than current active one (requested
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003348 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\project unity\JamEpitech040722\Jam 040722\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\project unity\JamEpitech040722\Jam 040722\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.05 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.015 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1016ms)
+		BeginReloadAssembly (197ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (77ms)
+		EndReloadAssembly (726ms)
+			LoadAssemblies (102ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (252ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (42ms)
+			SetupLoadedEditorAssemblies (307ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (12ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (57ms)
+				ProcessInitializeOnLoadAttributes (201ms)
+				ProcessInitializeOnLoadMethodAttributes (33ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.58 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3450 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 20 unused Assets / (79.1 KB). Loaded Objects now: 4089.
+Memory consumption went from 140.9 MB to 140.9 MB.
+Total: 3.451700 ms (FindLiveObjects: 0.299600 ms CreateObjectMapping: 0.113500 ms MarkObjects: 2.926200 ms  DeleteObjects: 0.111500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004051 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\project unity\JamEpitech040722\Jam 040722\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\project unity\JamEpitech040722\Jam 040722\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.74 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.617 seconds
+Domain Reload Profiling:
+	ReloadAssembly (617ms)
+		BeginReloadAssembly (95ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (22ms)
+		EndReloadAssembly (467ms)
+			LoadAssemblies (60ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (156ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (26ms)
+			SetupLoadedEditorAssemblies (207ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (8ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (38ms)
+				ProcessInitializeOnLoadAttributes (136ms)
+				ProcessInitializeOnLoadMethodAttributes (22ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.44 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3451 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 20 unused Assets / (79.2 KB). Loaded Objects now: 4093.
+Memory consumption went from 141.0 MB to 140.9 MB.
+Total: 2.859900 ms (FindLiveObjects: 0.246000 ms CreateObjectMapping: 0.096800 ms MarkObjects: 2.437300 ms  DeleteObjects: 0.078900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005925 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\project unity\JamEpitech040722\Jam 040722\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\project unity\JamEpitech040722\Jam 040722\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.93 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.064 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1065ms)
+		BeginReloadAssembly (172ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (38ms)
+		EndReloadAssembly (779ms)
+			LoadAssemblies (129ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (269ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (46ms)
+			SetupLoadedEditorAssemblies (327ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (12ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (64ms)
+				ProcessInitializeOnLoadAttributes (213ms)
+				ProcessInitializeOnLoadMethodAttributes (34ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.51 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3451 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 20 unused Assets / (79.0 KB). Loaded Objects now: 4096.
+Memory consumption went from 141.0 MB to 140.9 MB.
+Total: 3.765700 ms (FindLiveObjects: 0.317900 ms CreateObjectMapping: 0.088000 ms MarkObjects: 3.232500 ms  DeleteObjects: 0.126000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 8093.595417 seconds.
+  path: Assets/Scripts/state.cs
+  artifactKey: Guid(ffb083071984b6b4db31fc2c1ee3322a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/state.cs using Guid(ffb083071984b6b4db31fc2c1ee3322a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b59ba909f110b48258adfb1acc6bcbc') in 0.013267 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006398 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\project unity\JamEpitech040722\Jam 040722\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\project unity\JamEpitech040722\Jam 040722\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.00 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.089 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1089ms)
+		BeginReloadAssembly (186ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (41ms)
+		EndReloadAssembly (786ms)
+			LoadAssemblies (135ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (282ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (47ms)
+			SetupLoadedEditorAssemblies (311ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (13ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (53ms)
+				ProcessInitializeOnLoadAttributes (208ms)
+				ProcessInitializeOnLoadMethodAttributes (33ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.22 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3451 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 20 unused Assets / (79.2 KB). Loaded Objects now: 4099.
+Memory consumption went from 141.0 MB to 140.9 MB.
+Total: 4.886800 ms (FindLiveObjects: 0.470200 ms CreateObjectMapping: 0.121800 ms MarkObjects: 4.112800 ms  DeleteObjects: 0.179800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 365.166840 seconds.
+  path: Assets/Scripts/state.cs
+  artifactKey: Guid(ffb083071984b6b4db31fc2c1ee3322a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/state.cs using Guid(ffb083071984b6b4db31fc2c1ee3322a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e920fe1fecf26f5c7952b98cb7efc47') in 0.009878 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003741 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\project unity\JamEpitech040722\Jam 040722\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\project unity\JamEpitech040722\Jam 040722\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.17 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.818 seconds
+Domain Reload Profiling:
+	ReloadAssembly (819ms)
+		BeginReloadAssembly (144ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (45ms)
+		EndReloadAssembly (609ms)
+			LoadAssemblies (80ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (192ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (26ms)
+			SetupLoadedEditorAssemblies (300ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (10ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (71ms)
+				ProcessInitializeOnLoadAttributes (185ms)
+				ProcessInitializeOnLoadMethodAttributes (32ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.46 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3451 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 20 unused Assets / (79.1 KB). Loaded Objects now: 4102.
+Memory consumption went from 141.0 MB to 140.9 MB.
+Total: 3.253200 ms (FindLiveObjects: 0.264400 ms CreateObjectMapping: 0.106400 ms MarkObjects: 2.784300 ms  DeleteObjects: 0.097000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004544 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\project unity\JamEpitech040722\Jam 040722\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\project unity\JamEpitech040722\Jam 040722\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.86 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.689 seconds
+Domain Reload Profiling:
+	ReloadAssembly (689ms)
+		BeginReloadAssembly (104ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (25ms)
+		EndReloadAssembly (523ms)
+			LoadAssemblies (64ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (183ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (32ms)
+			SetupLoadedEditorAssemblies (228ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (9ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (41ms)
+				ProcessInitializeOnLoadAttributes (152ms)
+				ProcessInitializeOnLoadMethodAttributes (21ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.46 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3451 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 20 unused Assets / (79.0 KB). Loaded Objects now: 4105.
+Memory consumption went from 141.0 MB to 140.9 MB.
+Total: 2.479200 ms (FindLiveObjects: 0.228400 ms CreateObjectMapping: 0.098600 ms MarkObjects: 2.069200 ms  DeleteObjects: 0.081900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 174.013984 seconds.
+  path: Assets/Scripts/state.cs
+  artifactKey: Guid(ffb083071984b6b4db31fc2c1ee3322a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/state.cs using Guid(ffb083071984b6b4db31fc2c1ee3322a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a7ee8faf7dd3385f2d5859746d50e14') in 0.005841 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003035 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\project unity\JamEpitech040722\Jam 040722\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\project unity\JamEpitech040722\Jam 040722\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.10 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.790 seconds
+Domain Reload Profiling:
+	ReloadAssembly (790ms)
+		BeginReloadAssembly (104ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (26ms)
+		EndReloadAssembly (623ms)
+			LoadAssemblies (66ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (208ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (39ms)
+			SetupLoadedEditorAssemblies (270ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (11ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (50ms)
+				ProcessInitializeOnLoadAttributes (177ms)
+				ProcessInitializeOnLoadMethodAttributes (28ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.80 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3451 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 20 unused Assets / (79.1 KB). Loaded Objects now: 4108.
+Memory consumption went from 141.0 MB to 140.9 MB.
+Total: 3.211700 ms (FindLiveObjects: 0.437200 ms CreateObjectMapping: 0.236300 ms MarkObjects: 2.400500 ms  DeleteObjects: 0.136400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005610 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\project unity\JamEpitech040722\Jam 040722\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\project unity\JamEpitech040722\Jam 040722\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.24 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.978 seconds
+Domain Reload Profiling:
+	ReloadAssembly (979ms)
+		BeginReloadAssembly (143ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (31ms)
+		EndReloadAssembly (739ms)
+			LoadAssemblies (92ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (231ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (47ms)
+			SetupLoadedEditorAssemblies (338ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (13ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (66ms)
+				ProcessInitializeOnLoadAttributes (230ms)
+				ProcessInitializeOnLoadMethodAttributes (24ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.42 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3451 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 20 unused Assets / (79.0 KB). Loaded Objects now: 4111.
+Memory consumption went from 141.0 MB to 141.0 MB.
+Total: 3.411800 ms (FindLiveObjects: 0.306600 ms CreateObjectMapping: 0.117400 ms MarkObjects: 2.881500 ms  DeleteObjects: 0.104200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003509 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\project unity\JamEpitech040722\Jam 040722\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\project unity\JamEpitech040722\Jam 040722\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.06 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.911 seconds
+Domain Reload Profiling:
+	ReloadAssembly (912ms)
+		BeginReloadAssembly (120ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (31ms)
+		EndReloadAssembly (717ms)
+			LoadAssemblies (73ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (233ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (42ms)
+			SetupLoadedEditorAssemblies (325ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (16ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (61ms)
+				ProcessInitializeOnLoadAttributes (212ms)
+				ProcessInitializeOnLoadMethodAttributes (33ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.98 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3451 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 20 unused Assets / (79.1 KB). Loaded Objects now: 4114.
+Memory consumption went from 141.0 MB to 141.0 MB.
+Total: 5.088300 ms (FindLiveObjects: 0.303400 ms CreateObjectMapping: 0.129700 ms MarkObjects: 4.428800 ms  DeleteObjects: 0.224800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 813.798735 seconds.
+  path: Assets/HelloMarioAssets/Decor/Couch/Mat/Metal00.mat
+  artifactKey: Guid(14e0e3fc756c1a14d891b7fd639c51b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HelloMarioAssets/Decor/Couch/Mat/Metal00.mat using Guid(14e0e3fc756c1a14d891b7fd639c51b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b0c63a52f6e9bcb4121a7462fa24e37') in 0.288737 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.169065 seconds.
+  path: Assets/HelloMarioAssets/Player/Mario/Mat/MarioRaccoonDogBodyMat01.mat
+  artifactKey: Guid(66fedb20b7bfeb74e889ea6a3245ac41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HelloMarioAssets/Player/Mario/Mat/MarioRaccoonDogBodyMat01.mat using Guid(66fedb20b7bfeb74e889ea6a3245ac41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8932f170365ce8ede0ee276dfe0ce14e') in 0.070442 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.382336 seconds.
+  path: Assets/HelloMarioAssets/Player/Mario/Mat/MarioMetalMat00.mat
+  artifactKey: Guid(38787c4810d4c7847b08fb2b1be0dfd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HelloMarioAssets/Player/Mario/Mat/MarioMetalMat00.mat using Guid(38787c4810d4c7847b08fb2b1be0dfd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26c6df5a30f511e32fd9465fc1537705') in 0.055605 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 228.882062 seconds.
+  path: Assets/HelloMarioAssets/Materials/Ground/Ground00_DM.mat
+  artifactKey: Guid(2f485ccc17db19241bac2bfff284627b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HelloMarioAssets/Materials/Ground/Ground00_DM.mat using Guid(2f485ccc17db19241bac2bfff284627b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6cf3c8266689bd5dc7e2d05c3ec1ed7d') in 0.237903 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/HelloMarioAssets/Materials/Metal/Iron00_AI.mat
+  artifactKey: Guid(e4c6571030a2f0d47a0b1bc0a1623918) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HelloMarioAssets/Materials/Metal/Iron00_AI.mat using Guid(e4c6571030a2f0d47a0b1bc0a1623918) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04a02c13a97de44560823c796fcab405') in 0.225916 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/HelloMarioAssets/Materials/Grass/LawnEdge01_DS.mat
+  artifactKey: Guid(421eab9d7698843489ded84a002ee5b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HelloMarioAssets/Materials/Grass/LawnEdge01_DS.mat using Guid(421eab9d7698843489ded84a002ee5b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3cad3984db30ebff2c5c96623efab822') in 0.337825 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Drop Shadow.mat
+  artifactKey: Guid(e73a58f6e2794ae7b1b7e50b7fb811b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Drop Shadow.mat using Guid(e73a58f6e2794ae7b1b7e50b7fb811b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd270b88d89e19446de7426c95484e8a0') in 0.104406 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/HelloMarioAssets/Materials/Metal/Metal00_N.mat
+  artifactKey: Guid(cb07006ed541a304eacc79fe4e83a24d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HelloMarioAssets/Materials/Metal/Metal00_N.mat using Guid(cb07006ed541a304eacc79fe4e83a24d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '269257b9c7ee2fa270d1b1ac04744d4d') in 0.045155 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/HelloMarioAssets/Decor/Fence/Mat/Metal03_T.mat
+  artifactKey: Guid(8c02810ed53b3c643bab965a05bb6599) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HelloMarioAssets/Decor/Fence/Mat/Metal03_T.mat using Guid(8c02810ed53b3c643bab965a05bb6599) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd189dab2d5132303641d10590a77b9ec') in 0.149555 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/HelloMarioAssets/Decor/ToadBrigadeShip/Mat/MetalBottom.mat
+  artifactKey: Guid(a78d518fcf8d3af4fa93638ad0f32f78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HelloMarioAssets/Decor/ToadBrigadeShip/Mat/MetalBottom.mat using Guid(a78d518fcf8d3af4fa93638ad0f32f78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39abfacc73d70a44a7462fc9e52af826') in 0.044850 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset
+  artifactKey: Guid(8f586378b4e144a9851e7b34d9b748ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset using Guid(8f586378b4e144a9851e7b34d9b748ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32b3db33232d43a9869655cc75f3ef3e') in 0.068354 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/HelloMarioAssets/Decor/ToadBrigadeShip/Mat/MetalCream.mat
+  artifactKey: Guid(fe141660986534047b4a220a4217573d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HelloMarioAssets/Decor/ToadBrigadeShip/Mat/MetalCream.mat using Guid(fe141660986534047b4a220a4217573d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2df9e127de7961987e5532ec5d4971ec') in 0.056928 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/HelloMarioAssets/Materials/Metal/MetalPlate02_H.mat
+  artifactKey: Guid(e3aa4242da8ebc347b1e362e03464e64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HelloMarioAssets/Materials/Metal/MetalPlate02_H.mat using Guid(e3aa4242da8ebc347b1e362e03464e64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee4cd5c7a39ed6d5605ad41175a104ee') in 0.124127 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/HelloMarioAssets/Materials/Stone/Roof01_Y.mat
+  artifactKey: Guid(89dca7682c3b4774d9de7f385e532aeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HelloMarioAssets/Materials/Stone/Roof01_Y.mat using Guid(89dca7682c3b4774d9de7f385e532aeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a53956fc58f8f5390282e3ea17ba5be') in 0.122121 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/HelloMarioAssets/Decor/Gong/Mat/Rope00_DY.mat
+  artifactKey: Guid(8493dabafd5025a48afdf15e8a9fa91e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HelloMarioAssets/Decor/Gong/Mat/Rope00_DY.mat using Guid(8493dabafd5025a48afdf15e8a9fa91e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc3581d448a60140eef8b3ad7cce790e') in 0.060239 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/HelloMarioAssets/Materials/Ground/Sand00_HT.mat
+  artifactKey: Guid(624e50187e4fec946b0cdd267c9bc814) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HelloMarioAssets/Materials/Ground/Sand00_HT.mat using Guid(624e50187e4fec946b0cdd267c9bc814) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4895ffcab1e062ad1f7ea027e5dbfa7') in 0.142896 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/HelloMarioAssets/Materials/Metal/MetalLoad00_T.mat
+  artifactKey: Guid(4a37e08df8f0d6a4aa81f60ccccbbaa6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HelloMarioAssets/Materials/Metal/MetalLoad00_T.mat using Guid(4a37e08df8f0d6a4aa81f60ccccbbaa6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4220b8dec464fabcdf6bc6975ca026a') in 0.111462 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/HelloMarioAssets/Decor/Sign/Mat/SignBoardSnowCoverMat00.mat
+  artifactKey: Guid(7d7944b6ece3e174d9709572846f6cdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HelloMarioAssets/Decor/Sign/Mat/SignBoardSnowCoverMat00.mat using Guid(7d7944b6ece3e174d9709572846f6cdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7eaba560e7b3c9ad670ebfdc404b8dc6') in 0.090793 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/HelloMarioAssets/Materials/Ground/SoilLayer03_T.mat
+  artifactKey: Guid(3f27da059cec4354eb23b69fa1093a6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HelloMarioAssets/Materials/Ground/SoilLayer03_T.mat using Guid(3f27da059cec4354eb23b69fa1093a6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '602188f57aafb25877ee824f2b0713a2') in 0.180875 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/HelloMarioAssets/Materials/Sweets/Sponge00_Color_M.mat
+  artifactKey: Guid(4dda6ce97eae73b4c891a466db58b2e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HelloMarioAssets/Materials/Sweets/Sponge00_Color_M.mat using Guid(4dda6ce97eae73b4c891a466db58b2e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dfe5cb9b25d479a1364f671335bf3386') in 0.152537 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/HelloMarioAssets/Decor/Bench/Mat/PaintWood00_J.mat
+  artifactKey: Guid(abeadecb00feba34f91aef6fdb32f22f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HelloMarioAssets/Decor/Bench/Mat/PaintWood00_J.mat using Guid(abeadecb00feba34f91aef6fdb32f22f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da8e6ab7bef5161841ab33f970bb1eec') in 0.108454 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/HelloMarioAssets/Materials/Stone/StoneTile00_DS.mat
+  artifactKey: Guid(281320e3670009040ba33ab6d878e34c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HelloMarioAssets/Materials/Stone/StoneTile00_DS.mat using Guid(281320e3670009040ba33ab6d878e34c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f2253e0861068ccc89202ba1aed2d0a') in 0.094171 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/HelloMarioAssets/Decor/Tree/Mat/TreeBroadLeafRedMat03.mat
+  artifactKey: Guid(b0af589e810ae694ea1b551017b04ff9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HelloMarioAssets/Decor/Tree/Mat/TreeBroadLeafRedMat03.mat using Guid(b0af589e810ae694ea1b551017b04ff9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66d98e572889d8004cd829799b5e67eb') in 0.074278 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/HelloMarioAssets/Materials/Metal/TankMetalMesh_DT.mat
+  artifactKey: Guid(d5c98bb344f7a1f4ba7464fb0e67058f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HelloMarioAssets/Materials/Metal/TankMetalMesh_DT.mat using Guid(d5c98bb344f7a1f4ba7464fb0e67058f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c36e5e287ecce2268e9160050d62ac9c') in 0.088881 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/HelloMarioAssets/Decor/Tree/Mat/Tree00.mat
+  artifactKey: Guid(950cf5e7b6adb27469ad185b335ba1e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HelloMarioAssets/Decor/Tree/Mat/Tree00.mat using Guid(950cf5e7b6adb27469ad185b335ba1e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f06a9a741b05b9309791bd867c33de5') in 0.124907 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/HelloMarioAssets/Materials/Stone/Wall00_Y.mat
+  artifactKey: Guid(e012baf70f5862b4e98ffcabb9b770be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HelloMarioAssets/Materials/Stone/Wall00_Y.mat using Guid(e012baf70f5862b4e98ffcabb9b770be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '705504fe95b78861b86b36cfb3eb0510') in 0.178747 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/HelloMarioAssets/Decor/Platform/Mat/LiftMikeMat00.mat
+  artifactKey: Guid(66c90b993b48cbf4791ca2cedb404b43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HelloMarioAssets/Decor/Platform/Mat/LiftMikeMat00.mat using Guid(66c90b993b48cbf4791ca2cedb404b43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f4ab8dfb113121d55b1ae9c78e87090') in 0.073832 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/HelloMarioAssets/Materials/Grass/Lawn01_DM.mat
+  artifactKey: Guid(dce663939eee0b24689199d9c0150d1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HelloMarioAssets/Materials/Grass/Lawn01_DM.mat using Guid(dce663939eee0b24689199d9c0150d1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fac130e7c0d222819c6cdb649b322537') in 0.064610 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/HelloMarioAssets/Materials/Ground/wall08_AI.mat
+  artifactKey: Guid(a47ec3921bb39d744ae373d3354c8bcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HelloMarioAssets/Materials/Ground/wall08_AI.mat using Guid(a47ec3921bb39d744ae373d3354c8bcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09cc8336a739292e73e349a28b6f6342') in 0.167877 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/HelloMarioAssets/Decor/StonePath/Mat/Stone00.mat
+  artifactKey: Guid(9c13773afc31c67478f792216746d54e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HelloMarioAssets/Decor/StonePath/Mat/Stone00.mat using Guid(9c13773afc31c67478f792216746d54e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a93c58c78b0f14b114a0d1d44bd43b65') in 0.067800 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/HelloMarioAssets/Materials/Stone/WallBlock06_DT.mat
+  artifactKey: Guid(4abc2be88d5ae2540abad05f8e0215d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HelloMarioAssets/Materials/Stone/WallBlock06_DT.mat using Guid(4abc2be88d5ae2540abad05f8e0215d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54d5f2cec423d009ec0459cadae0cc72') in 0.238015 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/HelloMarioAssets/Materials/Wood/Wood04_M.mat
+  artifactKey: Guid(2c4473bf623061e40859b49c47bcbbae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HelloMarioAssets/Materials/Wood/Wood04_M.mat using Guid(2c4473bf623061e40859b49c47bcbbae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c786636539e93bdaaf5f13e957a632a') in 0.141285 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/HelloMarioAssets/Materials/Wood/Wood_Yellow_HT.mat
+  artifactKey: Guid(89508bdae711d954cb8355061295e8b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HelloMarioAssets/Materials/Wood/Wood_Yellow_HT.mat using Guid(89508bdae711d954cb8355061295e8b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b2835ec8fca63d3eeb55c895d5acc58') in 0.171735 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/HelloMarioAssets/Player/Mario/Mat/MarioHandMat00.mat
+  artifactKey: Guid(88ae764cd5b9efd43b91c2b61a2b74f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HelloMarioAssets/Player/Mario/Mat/MarioHandMat00.mat using Guid(88ae764cd5b9efd43b91c2b61a2b74f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87b9ce02863004bef65addac57fb289a') in 0.114641 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/HelloMarioAssets/Decor/Net/Mat/wireparts01.mat
+  artifactKey: Guid(760f2e198e3378a4e97b07a55887cf9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HelloMarioAssets/Decor/Net/Mat/wireparts01.mat using Guid(760f2e198e3378a4e97b07a55887cf9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78e14db32c3047d7ed4209452e34ae36') in 0.126745 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/HelloMarioAssets/Materials/Ground/Stone03_AI.mat
+  artifactKey: Guid(d9f924025414c4a4a959ab62dc671f57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HelloMarioAssets/Materials/Ground/Stone03_AI.mat using Guid(d9f924025414c4a4a959ab62dc671f57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a7240a481b38b4760184a42c522d133') in 0.124475 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/HelloMarioAssets/Materials/Grass/Lawn00_T.mat
+  artifactKey: Guid(f8e022e9045281c4ea104bed12dfbe45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HelloMarioAssets/Materials/Grass/Lawn00_T.mat using Guid(f8e022e9045281c4ea104bed12dfbe45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48ee4a6d5f126e06e7e7e098bf30f712') in 0.112004 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/HelloMarioAssets/Materials/Stone/Wall02_T.mat
+  artifactKey: Guid(f9dcac9c7ca65a041bf4fb02ed99897f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HelloMarioAssets/Materials/Stone/Wall02_T.mat using Guid(f9dcac9c7ca65a041bf4fb02ed99897f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3f58610348de7bac73af2c701c740e8') in 0.195327 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/HelloMarioAssets/Materials/Stone/Roof00_Y.mat
+  artifactKey: Guid(df37c4f5f6f441544831396e53d24e90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HelloMarioAssets/Materials/Stone/Roof00_Y.mat using Guid(df37c4f5f6f441544831396e53d24e90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '013eae2c9a3bf527e69d073880055f5c') in 0.040981 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/HelloMarioAssets/Materials/Wood/Wood_BrownDark_HT.mat
+  artifactKey: Guid(bcea88bc5aae2af41be8532efb4a9b62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HelloMarioAssets/Materials/Wood/Wood_BrownDark_HT.mat using Guid(bcea88bc5aae2af41be8532efb4a9b62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '400d8c9df0a9021ecdc1b927b70df17f') in 0.047801 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/HelloMarioAssets/Materials/Metal/Metal02_HT.mat
+  artifactKey: Guid(b2c6166416c3b3547ae1aa5a33700712) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HelloMarioAssets/Materials/Metal/Metal02_HT.mat using Guid(b2c6166416c3b3547ae1aa5a33700712) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '352a7300399e13e414df340520821ca2') in 0.103733 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/HelloMarioAssets/Player/Projectiles/Mat/LuigiBoomerangBoomerangMat00.mat
+  artifactKey: Guid(19674f8e49c276a4f915c14469a6cb4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HelloMarioAssets/Player/Projectiles/Mat/LuigiBoomerangBoomerangMat00.mat using Guid(19674f8e49c276a4f915c14469a6cb4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ed6b10a7b45faa7bf823619322c488a') in 0.057702 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/HelloMarioAssets/Materials/Stone/Roof_DS_7.mat
+  artifactKey: Guid(ee960ad9292d2ba419be27dc6721e301) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HelloMarioAssets/Materials/Stone/Roof_DS_7.mat using Guid(ee960ad9292d2ba419be27dc6721e301) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '064c7c4bc10b65894e942ca7b3fc6a7d') in 0.035738 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/HelloMarioAssets/Player/Projectiles/Mat/RosettaBoomerangBoomerangMat00.mat
+  artifactKey: Guid(ddf17dd356381484484e8ac37340fc3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HelloMarioAssets/Player/Projectiles/Mat/RosettaBoomerangBoomerangMat00.mat using Guid(ddf17dd356381484484e8ac37340fc3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c312aecc365f6b62eb818de837695ce') in 0.047283 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/HelloMarioAssets/Decor/Raft/Mat/Ikada00.mat
+  artifactKey: Guid(2aaab27f0b2b51d4bb08e7b0a8ace185) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HelloMarioAssets/Decor/Raft/Mat/Ikada00.mat using Guid(2aaab27f0b2b51d4bb08e7b0a8ace185) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82145acc08568fbca0e995a3006ede08') in 0.101684 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/HelloMarioAssets/Materials/Stone/Roof_DS_1.mat
+  artifactKey: Guid(e4e2c202bde987643b64724eddef55b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HelloMarioAssets/Materials/Stone/Roof_DS_1.mat using Guid(e4e2c202bde987643b64724eddef55b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7508eaa13ea2d85e95e01d17200afca1') in 0.048138 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/HelloMarioAssets/Decor/Raft/Mat/taru00.mat
+  artifactKey: Guid(87063f76635e54e4da911c69bfe3a0b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HelloMarioAssets/Decor/Raft/Mat/taru00.mat using Guid(87063f76635e54e4da911c69bfe3a0b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '184b2728faa90e2834390acbf7202a9e') in 0.099325 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/HelloMarioAssets/Materials/Ground/Wall01_M.mat
+  artifactKey: Guid(bde5e21f00a91f54ba6c824db41cebed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HelloMarioAssets/Materials/Ground/Wall01_M.mat using Guid(bde5e21f00a91f54ba6c824db41cebed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fdc34568745eb3124017c3e8e1a78a2c') in 0.122558 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/HelloMarioAssets/Decor/Tree/Mat/TreeBroadLeafRedMat04.mat
+  artifactKey: Guid(483f7abae3e772546bee76d30a7faf4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HelloMarioAssets/Decor/Tree/Mat/TreeBroadLeafRedMat04.mat using Guid(483f7abae3e772546bee76d30a7faf4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce15a10f2fd08e220adb14eaf35dcef2') in 0.051899 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/HelloMarioAssets/Materials/Wood/Wood_Common02_DS.mat
+  artifactKey: Guid(87b3309b66781f54f847ad723df86730) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HelloMarioAssets/Materials/Wood/Wood_Common02_DS.mat using Guid(87b3309b66781f54f847ad723df86730) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34ce4753044b4f77af7df4457aecf6c7') in 0.113845 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/HelloMarioAssets/Decor/Campfire/Mat/Stone00_S.mat
+  artifactKey: Guid(bf4534220e08cb643a33d55197689b65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HelloMarioAssets/Decor/Campfire/Mat/Stone00_S.mat using Guid(bf4534220e08cb643a33d55197689b65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46a8f6fae918ced77b1aa620556e6513') in 0.062111 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/HelloMarioAssets/Decor/Cube/Mat/WhiteBiss02.mat
+  artifactKey: Guid(93e53e99798ea9842a881ca0a64f535b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HelloMarioAssets/Decor/Cube/Mat/WhiteBiss02.mat using Guid(93e53e99798ea9842a881ca0a64f535b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1745896aa7c5a310b60a278128db14ed') in 0.054017 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/HelloMarioAssets/Decor/Tree/Mat/TreeConiferSnowMat00.mat
+  artifactKey: Guid(dae5ce3e237a60d44943b5542f3783c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HelloMarioAssets/Decor/Tree/Mat/TreeConiferSnowMat00.mat using Guid(dae5ce3e237a60d44943b5542f3783c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72432a327ce8aa66d2f1c45131d904d2') in 0.041420 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/HelloMarioAssets/Materials/Stone/wall23_AI.mat
+  artifactKey: Guid(1de00ec318e41fb45b1c509bd02d6580) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HelloMarioAssets/Materials/Stone/wall23_AI.mat using Guid(1de00ec318e41fb45b1c509bd02d6580) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b33a81cd4d949a6c455dd71fdcb59c1c') in 0.106490 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/HelloMarioAssets/Decor/Ball/Mat/NeedleBall_NeedleBallBodyMat01.mat
+  artifactKey: Guid(a408224c3ea67d0479d9249b0b12152e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HelloMarioAssets/Decor/Ball/Mat/NeedleBall_NeedleBallBodyMat01.mat using Guid(a408224c3ea67d0479d9249b0b12152e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03f5c0f4cacc26dc7432e9cd5163b059') in 0.057628 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/HelloMarioAssets/Materials/Ground/Snow03_D.mat
+  artifactKey: Guid(b1fd5e9032b127d499be73bbaef1ad4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HelloMarioAssets/Materials/Ground/Snow03_D.mat using Guid(b1fd5e9032b127d499be73bbaef1ad4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7cf2d11ff664441b57cbbb8ac666317f') in 0.059193 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/HelloMarioAssets/Materials/Grass/W1Lawn00_DM.mat
+  artifactKey: Guid(b4a15a02b4fdb6c4ca35d5b0cbb25ad0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HelloMarioAssets/Materials/Grass/W1Lawn00_DM.mat using Guid(b4a15a02b4fdb6c4ca35d5b0cbb25ad0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '740d818f3d2eff0cc0df2b2e64e19f9a') in 0.154706 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/HelloMarioAssets/Materials/Ground/Wall03_M.mat
+  artifactKey: Guid(540c1f6dc8079d14c9dca86337de90fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HelloMarioAssets/Materials/Ground/Wall03_M.mat using Guid(540c1f6dc8079d14c9dca86337de90fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00f3a5c187ab6e842511b77d1585e364') in 0.074940 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/HelloMarioAssets/Materials/Stone/WallBlock00_K.mat
+  artifactKey: Guid(69c18750ca7795b438ee7e966594bae7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HelloMarioAssets/Materials/Stone/WallBlock00_K.mat using Guid(69c18750ca7795b438ee7e966594bae7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f893ff2d32870b95f1573f2de5a57586') in 0.063823 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/HelloMarioAssets/Materials/Ground/WaterTop01.mat
+  artifactKey: Guid(a553b66a2b20d1342a24368a46e341f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HelloMarioAssets/Materials/Ground/WaterTop01.mat using Guid(a553b66a2b20d1342a24368a46e341f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99e1fd1e869485ffc7828f7af36308fa') in 0.110493 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/HelloMarioAssets/Materials/Stone/StoneWall01.mat
+  artifactKey: Guid(60a61011c7326514f86ba227d53f307b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HelloMarioAssets/Materials/Stone/StoneWall01.mat using Guid(60a61011c7326514f86ba227d53f307b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd90a9f4d36b304e71d1f37cad9372dfc') in 0.168576 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/HelloMarioAssets/Materials/Metal/IronPlate02_Y.mat
+  artifactKey: Guid(ead118bc157a2064f885660c0000ddbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HelloMarioAssets/Materials/Metal/IronPlate02_Y.mat using Guid(ead118bc157a2064f885660c0000ddbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a5e71ec656b2702f0c0b4fc51413edc') in 0.116057 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/HelloMarioAssets/Decor/NeedleCube/Mat/NeedleCubeTopMat01.mat
+  artifactKey: Guid(b2b36ac460bcf294caca3b4c0679dee3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HelloMarioAssets/Decor/NeedleCube/Mat/NeedleCubeTopMat01.mat using Guid(b2b36ac460bcf294caca3b4c0679dee3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '281b2e2f79cd9f920d37895ef092e23a') in 0.074888 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/HelloMarioAssets/Materials/Stone/Wall02_J.mat
+  artifactKey: Guid(48c04f208c67bdb4b8973548f9f9e80a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HelloMarioAssets/Materials/Stone/Wall02_J.mat using Guid(48c04f208c67bdb4b8973548f9f9e80a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '814e195742d8ad3a3a8c03783e67eadf') in 0.089745 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/HelloMarioAssets/Materials/Stone/Roof_DS_3.mat
+  artifactKey: Guid(4b502cf1364c5774ca9f03730a95e712) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HelloMarioAssets/Materials/Stone/Roof_DS_3.mat using Guid(4b502cf1364c5774ca9f03730a95e712) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf1bd02831a054d6f529ec06d010e30d') in 0.032211 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/HelloMarioAssets/Player/Projectiles/Mat/KinopioBoomerangBoomerangMat00.mat
+  artifactKey: Guid(958e676c091e4f647a40032a29533349) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HelloMarioAssets/Player/Projectiles/Mat/KinopioBoomerangBoomerangMat00.mat using Guid(958e676c091e4f647a40032a29533349) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4df50263f8477e26d1a9417d903a00dd') in 0.048543 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/HelloMarioAssets/Materials/Ground/SeaBedSand.mat
+  artifactKey: Guid(c64d7e8da060bdc4086fe307e68d84fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HelloMarioAssets/Materials/Ground/SeaBedSand.mat using Guid(c64d7e8da060bdc4086fe307e68d84fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac2c261128df9088f01e777fe5147b6f') in 0.116695 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/HelloMarioAssets/Materials/Sweets/Sponge00_Pink_M.mat
+  artifactKey: Guid(578b01842773d954e9bb7d3a71ed8f6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HelloMarioAssets/Materials/Sweets/Sponge00_Pink_M.mat using Guid(578b01842773d954e9bb7d3a71ed8f6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22dd0ecd4ae4a2c76c1405ca3dea8f4e') in 0.045643 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/HelloMarioAssets/Materials/Ground/Soil00_DS.mat
+  artifactKey: Guid(8900d8319b6f2814c91e9eaee94513a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HelloMarioAssets/Materials/Ground/Soil00_DS.mat using Guid(8900d8319b6f2814c91e9eaee94513a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '820f7621a409f80cc4421811d2192ba8') in 0.120452 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/HelloMarioAssets/Decor/Tree/Mat/TreeABodyMat00.mat
+  artifactKey: Guid(b3d45b20b9af0bc4caa9e703068afcca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HelloMarioAssets/Decor/Tree/Mat/TreeABodyMat00.mat using Guid(b3d45b20b9af0bc4caa9e703068afcca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1aec1a3aa1ed5a3331978015230cde24') in 0.112208 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/HelloMarioAssets/Materials/Metal/Velour00_AI.mat
+  artifactKey: Guid(19ea670f40775fc4baa70ecd443035d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HelloMarioAssets/Materials/Metal/Velour00_AI.mat using Guid(19ea670f40775fc4baa70ecd443035d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a1f45ca6025fb1935668c3ff83bcc60') in 0.067396 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/HelloMarioAssets/Materials/Stone/Tile02_N.mat
+  artifactKey: Guid(99cf2d7ca22e7b641bcc6cc61d2ecc93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HelloMarioAssets/Materials/Stone/Tile02_N.mat using Guid(99cf2d7ca22e7b641bcc6cc61d2ecc93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e789e66c274765be7bd12e66f4f614e') in 0.129586 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/HelloMarioAssets/Decor/Platform/Mat/LiftMikePropellerMat00.mat
+  artifactKey: Guid(e4b77d170b2e732489ef8fc475f92d9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HelloMarioAssets/Decor/Platform/Mat/LiftMikePropellerMat00.mat using Guid(e4b77d170b2e732489ef8fc475f92d9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a56e4941b562b9bfb69197afaac2bb9c') in 0.045321 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/HelloMarioAssets/Decor/Shipwreck/Mat/SailMat00.mat
+  artifactKey: Guid(bbac78eaf09b2784b840d9f02125b932) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HelloMarioAssets/Decor/Shipwreck/Mat/SailMat00.mat using Guid(bbac78eaf09b2784b840d9f02125b932) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27ce07e605c462eef23235e8412117cd') in 0.051886 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/HelloMarioAssets/Decor/Fence/Mat/Wood01.mat
+  artifactKey: Guid(83f8cd93193ae0e4586bcc0f997dfb3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HelloMarioAssets/Decor/Fence/Mat/Wood01.mat using Guid(83f8cd93193ae0e4586bcc0f997dfb3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee2f05d4ab147390622c659484aa5cdd') in 0.036865 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/HelloMarioAssets/Materials/Stone/StoneTile01_DS.mat
+  artifactKey: Guid(dfeade254a22a5649be96e534c057f20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HelloMarioAssets/Materials/Stone/StoneTile01_DS.mat using Guid(dfeade254a22a5649be96e534c057f20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba3801592ef0fcccb1be49890dd279cf') in 0.025998 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/HelloMarioAssets/Decor/Tree/Mat/Mt_GrassHigh.mat
+  artifactKey: Guid(d17e875bbe9529a47bf5a0538b510271) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HelloMarioAssets/Decor/Tree/Mat/Mt_GrassHigh.mat using Guid(d17e875bbe9529a47bf5a0538b510271) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7e9fac3017e110ffaee3de5a850ffbc') in 0.053225 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/HelloMarioAssets/Decor/Shipwreck/Mat/ShipWoodMat00.mat
+  artifactKey: Guid(7a55eb8e6b575334dbee084979fa300f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HelloMarioAssets/Decor/Shipwreck/Mat/ShipWoodMat00.mat using Guid(7a55eb8e6b575334dbee084979fa300f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71192eecf28ee4ae92a5523483e362f9') in 0.096342 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/HelloMarioAssets/Materials/Stone/Tile00_S.mat
+  artifactKey: Guid(09945b7215bda804290d70eac8c1fc55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HelloMarioAssets/Materials/Stone/Tile00_S.mat using Guid(09945b7215bda804290d70eac8c1fc55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '561890a86c655e21d904cfe1ce441002') in 0.090934 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/HelloMarioAssets/Decor/Tent/Mat/Tent00_AI.mat
+  artifactKey: Guid(7dfbd030af4ade44d8e5f69507066a19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HelloMarioAssets/Decor/Tent/Mat/Tent00_AI.mat using Guid(7dfbd030af4ade44d8e5f69507066a19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1212d2c88ed8351d6d0501d4255cd6a') in 0.022912 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/HelloMarioAssets/Materials/Stone/WallRock04_DY.mat
+  artifactKey: Guid(2a14786c82b51034aa872747dce5ee53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HelloMarioAssets/Materials/Stone/WallRock04_DY.mat using Guid(2a14786c82b51034aa872747dce5ee53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1fb3fef2f8259fe6859d378c6f1fc13') in 0.226207 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/HelloMarioAssets/Materials/Stone/WallBlock01_N.mat
+  artifactKey: Guid(143ee664020fdd54f85a5920fd4e4054) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HelloMarioAssets/Materials/Stone/WallBlock01_N.mat using Guid(143ee664020fdd54f85a5920fd4e4054) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb1daaae90312f59dc9f0d1ecf45b854') in 0.089321 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/HelloMarioAssets/Materials/Wood/Wood_Red_HT.mat
+  artifactKey: Guid(6b89d7aa511407d459c225ad702e55ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HelloMarioAssets/Materials/Wood/Wood_Red_HT.mat using Guid(6b89d7aa511407d459c225ad702e55ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a91ab489aee7df03458868996e5d597b') in 0.034813 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/HelloMarioAssets/Materials/Stone/WallBlock02_T.mat
+  artifactKey: Guid(390d24ef38e70834c8d4f8dd76dcd76d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HelloMarioAssets/Materials/Stone/WallBlock02_T.mat using Guid(390d24ef38e70834c8d4f8dd76dcd76d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd12301036f5dbeff895b4008171f2b2') in 0.098241 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/HelloMarioAssets/Decor/Fence/Mat/Wood00_T.mat
+  artifactKey: Guid(a52871cc5f97b73408ca650b0ce46b5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HelloMarioAssets/Decor/Fence/Mat/Wood00_T.mat using Guid(a52871cc5f97b73408ca650b0ce46b5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d90d81fb61b54b086f397ff5306d6ae') in 0.060811 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/HelloMarioAssets/Decor/Fence/Mat/Metal01_T.mat
+  artifactKey: Guid(ce3c1325e2858a9438d6d72befa4ba1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HelloMarioAssets/Decor/Fence/Mat/Metal01_T.mat using Guid(ce3c1325e2858a9438d6d72befa4ba1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '035073e58ad61057406d3ee976cd46d6') in 0.069022 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/HelloMarioAssets/Materials/Stone/Tile01_N.mat
+  artifactKey: Guid(839769e504e47df44bea9420b4d75fe8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HelloMarioAssets/Materials/Stone/Tile01_N.mat using Guid(839769e504e47df44bea9420b4d75fe8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e124e6ee31a45845f2d87ab0f01fc4be') in 0.184721 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/HelloMarioAssets/Decor/Gong/Mat/WoodCommon04_DY.mat
+  artifactKey: Guid(c76026854fa67414fb9d24a7b21890e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HelloMarioAssets/Decor/Gong/Mat/WoodCommon04_DY.mat using Guid(c76026854fa67414fb9d24a7b21890e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb07d59368bd338866cbd53b0f15b249') in 0.115818 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/HelloMarioAssets/Decor/Sign/Mat/SignBoardWoodMat00.mat
+  artifactKey: Guid(f6b0c7bdcb9307d449ee4f34d966e742) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HelloMarioAssets/Decor/Sign/Mat/SignBoardWoodMat00.mat using Guid(f6b0c7bdcb9307d449ee4f34d966e742) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1174c4f7ef8d44c499067b787daa0c6') in 0.095413 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/HelloMarioAssets/Decor/Sign/Mat/SignBoadPoison_phong1.mat
+  artifactKey: Guid(44e4587d47dd1dd40af649283c8426c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HelloMarioAssets/Decor/Sign/Mat/SignBoadPoison_phong1.mat using Guid(44e4587d47dd1dd40af649283c8426c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00e74f0172628a42bfeaee476bc00f8e') in 1.364061 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/HelloMarioAssets/Materials/Wood/WoodRoof00_S.mat
+  artifactKey: Guid(9f5602ab9e26839458958e1294ea3689) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HelloMarioAssets/Materials/Wood/WoodRoof00_S.mat using Guid(9f5602ab9e26839458958e1294ea3689) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a085ad819afcedd0e2ce9570716de8e') in 0.092498 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/HelloMarioAssets/Materials/Wood/Wood_Tile01.mat
+  artifactKey: Guid(95b1a230dbd50e8449e9d18292657876) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HelloMarioAssets/Materials/Wood/Wood_Tile01.mat using Guid(95b1a230dbd50e8449e9d18292657876) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7145d369c8166786c32918d8ad82b8ec') in 0.168552 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/HelloMarioAssets/Materials/Stone/wall16_AI.mat
+  artifactKey: Guid(06399cdfc546d59419a5c52deefdca80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HelloMarioAssets/Materials/Stone/wall16_AI.mat using Guid(06399cdfc546d59419a5c52deefdca80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c27f11f7f67f7d3f7f964182f5ca5978') in 2.002717 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/HelloMarioAssets/Materials/Ground/RockWall01.mat
+  artifactKey: Guid(3fa3f811c942d034c85b83c2c697cce5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HelloMarioAssets/Materials/Ground/RockWall01.mat using Guid(3fa3f811c942d034c85b83c2c697cce5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78aae24abc17826c6e3a72d318c86e4c') in 0.782814 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/HelloMarioAssets/Decor/Tree/Mat/TreeLongMat00.mat
+  artifactKey: Guid(c72946ff7ecc88948894be0289c054b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HelloMarioAssets/Decor/Tree/Mat/TreeLongMat00.mat using Guid(c72946ff7ecc88948894be0289c054b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd63486b38d41e52c19b75e23e945d3d') in 0.134692 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/HelloMarioAssets/Materials/Wood/WoodEnd00_M.mat
+  artifactKey: Guid(7602cf24fcdf63d4bbeec1f436c00536) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HelloMarioAssets/Materials/Wood/WoodEnd00_M.mat using Guid(7602cf24fcdf63d4bbeec1f436c00536) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6d985fc403178ae724bea7fbdfedd54') in 0.523911 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/HelloMarioAssets/Materials/Stone/Wall02_N.mat
+  artifactKey: Guid(4a188a3349df3f14ca38008be30a564a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HelloMarioAssets/Materials/Stone/Wall02_N.mat using Guid(4a188a3349df3f14ca38008be30a564a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7dfc2b93507b21c8bf49f8beec2a8064') in 0.423176 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/HelloMarioAssets/Decor/Tree/Mat/TreeBroadLeafRedMat01.mat
+  artifactKey: Guid(4c934ae11f103d445b8d6354647afdbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HelloMarioAssets/Decor/Tree/Mat/TreeBroadLeafRedMat01.mat using Guid(4c934ae11f103d445b8d6354647afdbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd05f73cfe1b8ba2f60c8742669763ba1') in 0.123493 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/HelloMarioAssets/Decor/Tree/Mat/TreeALeafMat01.mat
+  artifactKey: Guid(98bd126b87857fa4a9770a6869511bf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HelloMarioAssets/Decor/Tree/Mat/TreeALeafMat01.mat using Guid(98bd126b87857fa4a9770a6869511bf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0ae179685dc825d5af16335d9e8f07d') in 0.273293 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/HelloMarioAssets/Decor/ToadBrigadeShip/Mat/MetalRed.mat
+  artifactKey: Guid(46551c34252f12b4285acc4ccf1d2886) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HelloMarioAssets/Decor/ToadBrigadeShip/Mat/MetalRed.mat using Guid(46551c34252f12b4285acc4ccf1d2886) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3947393bde3851acd024ef3c612a8063') in 0.118492 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/HelloMarioAssets/Materials/Stone/wall00_AI.mat
+  artifactKey: Guid(af6aad1e2a9935346a2a45649001baa1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HelloMarioAssets/Materials/Stone/wall00_AI.mat using Guid(af6aad1e2a9935346a2a45649001baa1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9576fb248842268341a751848d853a2') in 0.749282 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/HelloMarioAssets/Materials/Ground/Soil00.mat
+  artifactKey: Guid(a54915a95b7a03b4f941e81644ff1edf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HelloMarioAssets/Materials/Ground/Soil00.mat using Guid(a54915a95b7a03b4f941e81644ff1edf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4d93ed146e6a4f4707acf8a506bafa0') in 0.451226 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/HelloMarioAssets/Materials/Ground/Sand01_N.mat
+  artifactKey: Guid(a8464e5888b53cc43968a77ac2379eb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HelloMarioAssets/Materials/Ground/Sand01_N.mat using Guid(a8464e5888b53cc43968a77ac2379eb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93386df20896ef76a976bc30258b064e') in 0.181777 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/HelloMarioAssets/Materials/Stone/WallBlock02_K.mat
+  artifactKey: Guid(d26ebda9b2daa7b429f290ed989f92ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HelloMarioAssets/Materials/Stone/WallBlock02_K.mat using Guid(d26ebda9b2daa7b429f290ed989f92ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c871eae3f348817dfa4b5c691581e8a') in 0.114575 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/HelloMarioAssets/Decor/Tree/Mat/TreeBroadLeafMat00.mat
+  artifactKey: Guid(2082528812a9ceb489bbc7aa2528c3c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HelloMarioAssets/Decor/Tree/Mat/TreeBroadLeafMat00.mat using Guid(2082528812a9ceb489bbc7aa2528c3c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd885ce1534b13cf0b7f4dc730252e93f') in 0.094631 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/HelloMarioAssets/Materials/Stone/Relief00_T.mat
+  artifactKey: Guid(fda068fd9a3daea48a5628dd3171e871) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HelloMarioAssets/Materials/Stone/Relief00_T.mat using Guid(fda068fd9a3daea48a5628dd3171e871) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7dac820a1f093ed916d8b3fb835b9834') in 0.174551 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/HelloMarioAssets/Materials/Ground/SoilLayer00_T.mat
+  artifactKey: Guid(5d177d97491f0eb4b82ebb4dc7e67a31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HelloMarioAssets/Materials/Ground/SoilLayer00_T.mat using Guid(5d177d97491f0eb4b82ebb4dc7e67a31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34ec343100e09ce94a2343685eb0a6a6') in 0.092092 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/HelloMarioAssets/Materials/Stone/wall03_AI.mat
+  artifactKey: Guid(f905f58597181f14f858b52777024b08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HelloMarioAssets/Materials/Stone/wall03_AI.mat using Guid(f905f58597181f14f858b52777024b08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ebbd4d3edc3d27b88b47a6d5e1cd663f') in 0.195831 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/HelloMarioAssets/Materials/Ground/LavaTex00.mat
+  artifactKey: Guid(69b99de155c88f7498dc1c6e4e933b16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HelloMarioAssets/Materials/Ground/LavaTex00.mat using Guid(69b99de155c88f7498dc1c6e4e933b16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '535d7961baa1199dce93c0c9bf22280d') in 0.192502 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000076 seconds.
+  path: Assets/HelloMarioAssets/Decor/Platform/Mat/Lift4x4MMat00.mat
+  artifactKey: Guid(3dd0ba1c19b04c04da7a00245f8d1583) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HelloMarioAssets/Decor/Platform/Mat/Lift4x4MMat00.mat using Guid(3dd0ba1c19b04c04da7a00245f8d1583) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '605f78eb98eecf020cda5c717a22f411') in 0.057282 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/HelloMarioAssets/Player/Mario/Mat/MarioBodyMat00.mat
+  artifactKey: Guid(10845279d5a3c1049aa2b82b774e8b17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HelloMarioAssets/Player/Mario/Mat/MarioBodyMat00.mat using Guid(10845279d5a3c1049aa2b82b774e8b17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62b99629e00cc7e3294024a9e173563e') in 0.046240 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/HelloMarioAssets/Materials/Stone/Soil02.mat
+  artifactKey: Guid(4e83942708eb982468286dfd3778a062) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HelloMarioAssets/Materials/Stone/Soil02.mat using Guid(4e83942708eb982468286dfd3778a062) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1f18426d07f5389909b5aae4cea904d') in 0.239563 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/HelloMarioAssets/Materials/Metal/Metal03_M.mat
+  artifactKey: Guid(f40aabfceeb5efc439579c3e40a15d17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HelloMarioAssets/Materials/Metal/Metal03_M.mat using Guid(f40aabfceeb5efc439579c3e40a15d17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33da8fbc5b5a5459b469f9ac8fe5d000') in 0.080168 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/HelloMarioAssets/Materials/Sweets/SpongeEdge00_Pink_M.mat
+  artifactKey: Guid(c3d58772e2d165543b5936b7e8335a0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HelloMarioAssets/Materials/Sweets/SpongeEdge00_Pink_M.mat using Guid(c3d58772e2d165543b5936b7e8335a0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6445feb28f60fd804700f5e6f7cd81f0') in 0.076817 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/HelloMarioAssets/Materials/Wood/WoodPanel00_S.mat
+  artifactKey: Guid(ebbb281d737b8f1489d84e6ca13b25ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HelloMarioAssets/Materials/Wood/WoodPanel00_S.mat using Guid(ebbb281d737b8f1489d84e6ca13b25ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69716e69c5186f2c72134faada1d131d') in 0.107888 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/HelloMarioAssets/Decor/NeedleCube/Mat/NeedleCubeMetalUpMat00.mat
+  artifactKey: Guid(bd26d44f121919042bf934068ccc3a9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HelloMarioAssets/Decor/NeedleCube/Mat/NeedleCubeMetalUpMat00.mat using Guid(bd26d44f121919042bf934068ccc3a9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc25b4a2a10e54203e5c5f8df5f327da') in 0.061195 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 143.243514 seconds.
+  path: Assets/Materials/Materials/couscous.mat
+  artifactKey: Guid(bdabe3241ac3ac0419b32df21c79be56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Materials/couscous.mat using Guid(bdabe3241ac3ac0419b32df21c79be56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30a7041754ef51b5885d2522c3e21ce1') in 0.011076 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 464.629560 seconds.
+  path: Assets/Materials/Material.mat
+  artifactKey: Guid(9c05e6087d6dc0940a6c25fc761d480d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Material.mat using Guid(9c05e6087d6dc0940a6c25fc761d480d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1dafbe54f65c1ab2f44f21c6322b6ad') in 0.029796 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 43.368614 seconds.
+  path: Assets/Materials/Material.mat
+  artifactKey: Guid(9c05e6087d6dc0940a6c25fc761d480d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Material.mat using Guid(9c05e6087d6dc0940a6c25fc761d480d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a934f17498892899c721ad0c80ce388a') in 0.368263 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 17.816633 seconds.
+  path: Assets/Materials/Cube_Cube_MaterialMat.mat
+  artifactKey: Guid(03d882027c87e5b46a606625d8daab21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Cube_Cube_MaterialMat.mat using Guid(03d882027c87e5b46a606625d8daab21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec8838c60c5c2398b114208f28bc1352') in 0.134231 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003038 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\project unity\JamEpitech040722\Jam 040722\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\project unity\JamEpitech040722\Jam 040722\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.91 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.852 seconds
+Domain Reload Profiling:
+	ReloadAssembly (853ms)
+		BeginReloadAssembly (136ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (48ms)
+		EndReloadAssembly (646ms)
+			LoadAssemblies (78ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (218ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (38ms)
+			SetupLoadedEditorAssemblies (276ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (12ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (49ms)
+				ProcessInitializeOnLoadAttributes (181ms)
+				ProcessInitializeOnLoadMethodAttributes (31ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.35 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3451 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 20 unused Assets / (79.2 KB). Loaded Objects now: 4119.
+Memory consumption went from 141.8 MB to 141.7 MB.
+Total: 3.639700 ms (FindLiveObjects: 0.517900 ms CreateObjectMapping: 0.131500 ms MarkObjects: 2.857800 ms  DeleteObjects: 0.130900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1496.956313 seconds.
+  path: Assets/Materials/couscous.png
+  artifactKey: Guid(b192d8b491a93dd42a033d1f1ae4e94b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/couscous.png using Guid(b192d8b491a93dd42a033d1f1ae4e94b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53c3c1b01d012a571e1de7843be3d857') in 0.089349 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003117 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\project unity\JamEpitech040722\Jam 040722\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\project unity\JamEpitech040722\Jam 040722\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.78 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.772 seconds
+Domain Reload Profiling:
+	ReloadAssembly (773ms)
+		BeginReloadAssembly (127ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (40ms)
+		EndReloadAssembly (581ms)
+			LoadAssemblies (77ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (189ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (32ms)
+			SetupLoadedEditorAssemblies (258ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (10ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (44ms)
+				ProcessInitializeOnLoadAttributes (172ms)
+				ProcessInitializeOnLoadMethodAttributes (29ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.82 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3451 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 20 unused Assets / (79.1 KB). Loaded Objects now: 4124.
+Memory consumption went from 141.8 MB to 141.7 MB.
+Total: 4.040500 ms (FindLiveObjects: 0.507700 ms CreateObjectMapping: 0.147700 ms MarkObjects: 3.218700 ms  DeleteObjects: 0.165000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
