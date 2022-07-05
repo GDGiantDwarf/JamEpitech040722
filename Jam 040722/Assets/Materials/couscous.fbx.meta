@@ -13,7 +13,7 @@ ModelImporter:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: couscous
-    second: {fileID: 2800000, guid: b192d8b491a93dd42a033d1f1ae4e94b, type: 3}
+    second: {fileID: 2800000, guid: 10c64ac6462a80b498a1686c6ed7f9a7, type: 3}
   materials:
     materialImportMode: 1
     materialName: 0
