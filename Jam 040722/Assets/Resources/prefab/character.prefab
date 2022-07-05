@@ -823,7 +823,7 @@ GameObject:
   - component: {fileID: 3910357097717517497}
   - component: {fileID: 3910357097717517502}
   m_Layer: 0
-  m_Name: octopus_animated_yellow
+  m_Name: character
   m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -900,7 +900,6 @@ MonoBehaviour:
   - d
   jumpspeed: {x: 0, y: 10, z: 0}
   currentanim: 
-  death_menu: {fileID: 0}
 --- !u!65 &3910357097717517497
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -926,9 +925,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ffb083071984b6b4db31fc2c1ee3322a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  death_menu: {fileID: 0}
   isActive: 0
-  is_retry_auto: {fileID: 0}
+  prefab: {fileID: 0}
+  char_pos: {x: 0, y: 0, z: 0}
+  character: {fileID: 0}
 --- !u!1 &5978171677564650588
 GameObject:
   m_ObjectHideFlags: 0

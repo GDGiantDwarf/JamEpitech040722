@@ -21,8 +21,13 @@ public class state : MonoBehaviour
         switch (other.gameObject.tag) {
             case "death":
                 isActive = true;
+                if (prefab == null) {
+                    prefab = Resources.Load("prefab/dead_body") as GameObject;
+                }
                 GameObject new_cl = Instantiate(prefab, character.transform.position, Quaternion.identity);
-                
+                if (character == null) {
+                    character = Resources.Load("prefab/character") as GameObject;
+                }
                 character.transform.position = char_pos;
                 break;
             case "Finish":
