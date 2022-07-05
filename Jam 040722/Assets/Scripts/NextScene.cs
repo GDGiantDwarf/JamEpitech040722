@@ -9,6 +9,8 @@ public class NextScene : MonoBehaviour
     {
         int act = SceneManager.GetActiveScene().buildIndex;
         Debug.Log("enter");
+        Cursor.lockState = CursorLockMode.None;
+        Cursor.visible = true;
         if (act + 1 == SceneManager.sceneCountInBuildSettings)
             SceneManager.LoadScene(0);
         else
