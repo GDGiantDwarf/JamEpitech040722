@@ -7,6 +7,11 @@ public class NextScene : MonoBehaviour
 {
     public void changeScene()
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+        int act = SceneManager.GetActiveScene().buildIndex;
+        Debug.Log("enter");
+        if (act + 1 == SceneManager.sceneCountInBuildSettings)
+            SceneManager.LoadScene(0);
+        else
+            SceneManager.LoadScene(act + 1);
     }
 }
