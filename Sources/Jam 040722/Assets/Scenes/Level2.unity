@@ -135,7 +135,7 @@ GameObject:
   - component: {fileID: 9001392}
   m_Layer: 0
   m_Name: Lift (27)
-  m_TagString: Untagged
+  m_TagString: death
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -165,7 +165,7 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 9001390}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 4.034195, y: 0.49878693, z: 4.286579}
@@ -1203,7 +1203,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2823192386976099886, guid: c7cdda4f5e1d0604ea7f397432902b5d, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2823192387728184968, guid: c7cdda4f5e1d0604ea7f397432902b5d, type: 3}
       propertyPath: m_Name

@@ -44,20 +44,20 @@ public class character : MonoBehaviour
             currentsp = walksp;
             // currentanim = "walk";
         }
-        if (Input.GetKey(inputs[0])) { // front
+        if (Input.GetKey(inputs[0]) || Input.GetKey(KeyCode.UpArrow)) { // front
             transform.Translate(0, 0, currentsp * Time.deltaTime);
             // if (grounded)
             //     animations.Play(currentanim);
         }
-        if (Input.GetKey(inputs[1])) { // rot left
+        if (Input.GetKey(inputs[1]) || Input.GetKey(KeyCode.LeftArrow)) { // rot left
             transform.Rotate(0, -turnsp * Time.deltaTime, 0);
         }
-        if (Input.GetKey(inputs[2])) { // back
+        if (Input.GetKey(inputs[2]) || Input.GetKey(KeyCode.DownArrow)) { // back
             transform.Translate(0, 0, -(currentsp / 2) * Time.deltaTime);
             // if (grounded)
             //     animations.Play(currentanim);
         }
-        if (Input.GetKey(inputs[3])) { // rot right
+        if (Input.GetKey(inputs[3]) || Input.GetKey(KeyCode.RightArrow)) { // rot right
             transform.Rotate(0, turnsp * Time.deltaTime, 0);
         }
     }
